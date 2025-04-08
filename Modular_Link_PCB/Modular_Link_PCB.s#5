@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="no"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="no"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="no"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<libraries>
+<library name="Prune_Bot_V1">
+<packages>
+<package name="1053141212">
+<pad name="M2B" x="-6.25" y="0" drill="1.2" diameter="1.778" rot="R90"/>
+<pad name="E2B" x="-3.75" y="0" drill="1.2" rot="R90"/>
+<pad name="E2A" x="-1.25" y="0" drill="1.2" rot="R90"/>
+<pad name="E1I" x="1.25" y="0" drill="1.2" rot="R90"/>
+<pad name="E1A" x="3.75" y="0" drill="1.2" rot="R90"/>
+<pad name="M1B" x="6.25" y="0" drill="1.2" rot="R90"/>
+<pad name="M2A" x="-6.25" y="-2.5" drill="1.2" rot="R90"/>
+<pad name="E2I" x="-3.75" y="-2.5" drill="1.2" rot="R90"/>
+<pad name="GND" x="-1.25" y="-2.5" drill="1.2" rot="R90"/>
+<pad name="5V" x="1.25" y="-2.5" drill="1.2" rot="R90"/>
+<pad name="E1B" x="3.75" y="-2.5" drill="1.2" rot="R90"/>
+<pad name="M1A" x="6.25" y="-2.5" drill="1.2" rot="R90"/>
+<hole x="-6.25" y="-9.68" drill="1.65"/>
+<hole x="6.25" y="-9.68" drill="1.65"/>
+<wire x1="-7.97" y1="-12.88" x2="7.97" y2="-12.88" width="0.127" layer="21"/>
+<wire x1="7.97" y1="-12.88" x2="7.97" y2="-4.42" width="0.127" layer="21"/>
+<wire x1="7.97" y1="-4.42" x2="6.57" y2="-4.42" width="0.127" layer="21"/>
+<wire x1="6.57" y1="-4.42" x2="6.57" y2="0.31" width="0.127" layer="21"/>
+<wire x1="6.57" y1="0.31" x2="-6.57" y2="0.31" width="0.127" layer="21"/>
+<wire x1="-6.57" y1="0.31" x2="-6.57" y2="-4.42" width="0.127" layer="21"/>
+<wire x1="-6.57" y1="-4.42" x2="-7.97" y2="-4.42" width="0.127" layer="21"/>
+<wire x1="-7.97" y1="-4.42" x2="-7.97" y2="-12.88" width="0.127" layer="21"/>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="1053141212">
+<pin name="M1A" x="-7.62" y="15.24" length="middle"/>
+<pin name="M1B" x="-7.62" y="12.7" length="middle"/>
+<pin name="E1A" x="-7.62" y="10.16" length="middle"/>
+<pin name="E1B" x="-7.62" y="7.62" length="middle"/>
+<pin name="E1I" x="-7.62" y="5.08" length="middle"/>
+<pin name="5V" x="-7.62" y="2.54" length="middle"/>
+<pin name="GND" x="-7.62" y="0" length="middle"/>
+<pin name="E2A" x="-7.62" y="-2.54" length="middle"/>
+<pin name="E2B" x="-7.62" y="-5.08" length="middle"/>
+<pin name="E2I" x="-7.62" y="-7.62" length="middle"/>
+<pin name="M2A" x="-7.62" y="-10.16" length="middle"/>
+<pin name="M2B" x="-7.62" y="-12.7" length="middle"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+<text x="-2.54" y="20.32" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOLEX_1053141212">
+<gates>
+<gate name="G$1" symbol="1053141212" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1053141212">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="E1A" pad="E1A"/>
+<connect gate="G$1" pin="E1B" pad="E1B"/>
+<connect gate="G$1" pin="E1I" pad="E1I"/>
+<connect gate="G$1" pin="E2A" pad="E2A"/>
+<connect gate="G$1" pin="E2B" pad="E2B"/>
+<connect gate="G$1" pin="E2I" pad="E2I"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="M1A" pad="M1A"/>
+<connect gate="G$1" pin="M1B" pad="M1B"/>
+<connect gate="G$1" pin="M2A" pad="M2A"/>
+<connect gate="G$1" pin="M2B" pad="M2B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<parts>
+<part name="U$1" library="Prune_Bot_V1" deviceset="MOLEX_1053141212" device=""/>
+<part name="U$2" library="Prune_Bot_V1" deviceset="MOLEX_1053141212" device=""/>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="U$1" gate="G$1" x="106.68" y="45.72" smashed="yes">
+<attribute name="NAME" x="104.14" y="66.04" size="1.27" layer="95"/>
+</instance>
+<instance part="U$2" gate="G$1" x="50.8" y="45.72" smashed="yes" rot="MR0">
+<attribute name="NAME" x="53.34" y="66.04" size="1.27" layer="95" rot="MR0"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="M1A"/>
+<pinref part="U$1" gate="G$1" pin="M1A"/>
+<wire x1="58.42" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="M1B"/>
+<pinref part="U$1" gate="G$1" pin="M1B"/>
+<wire x1="58.42" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="E1A"/>
+<pinref part="U$1" gate="G$1" pin="E1A"/>
+<wire x1="58.42" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="E1B"/>
+<pinref part="U$1" gate="G$1" pin="E1B"/>
+<wire x1="58.42" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="E1I"/>
+<pinref part="U$1" gate="G$1" pin="E1I"/>
+<wire x1="58.42" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="5V"/>
+<pinref part="U$1" gate="G$1" pin="5V"/>
+<wire x1="58.42" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="58.42" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="E2A"/>
+<pinref part="U$1" gate="G$1" pin="E2A"/>
+<wire x1="58.42" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="E2B"/>
+<pinref part="U$1" gate="G$1" pin="E2B"/>
+<wire x1="58.42" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="E2I"/>
+<pinref part="U$1" gate="G$1" pin="E2I"/>
+<wire x1="58.42" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="M2A"/>
+<pinref part="U$1" gate="G$1" pin="M2A"/>
+<wire x1="58.42" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="M2B"/>
+<pinref part="U$1" gate="G$1" pin="M2B"/>
+<wire x1="58.42" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+</sheets>
+</schematic>
+</drawing>
+</eagle>
